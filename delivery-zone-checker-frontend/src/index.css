@@ -1,0 +1,94 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  background: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #4cae4c;
+}
+
+/* Map */
+.map-container {
+  margin: 20px 0;
+  border: 2px solid #35424a;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Store List */
+.store-list {
+  list-style: none;
+  padding: 0;
+}
+
+.store-list li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.store-list li h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.store-list li p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #35424a;
+  color: #ffffff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

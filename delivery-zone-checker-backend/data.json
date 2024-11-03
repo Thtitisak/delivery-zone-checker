@@ -1,0 +1,46 @@
+{
+    "stores": [
+        {
+            "name": "ร้านกาแฟ ABC",
+            "location": {
+                "lat": 13.7563,
+                "lon": 100.5018
+            },
+            "radius": 5,
+            "address": " กรุงเทพฯ"
+        },
+        {
+            "name": "ร้านอาหาร XYZ",
+            "location": {
+                "lat": 13.7563,
+                "lon": 100.5010
+            },
+            "radius": 8,
+            "address": " กรุงเทพฯ"
+        }
+    ],
+    "roles": [
+        {
+            "name": "admin",
+            "permissions": ["create", "read", "update", "delete"]
+        },
+        {
+            "name": "user",
+            "permissions": ["read"]
+        }
+    ],
+    "users": [
+        {
+            "username": "adminUser",
+            "password": "password",
+            "email": "admin@gmail.com",
+            "role": "admin"
+        },
+        {
+            "username": "normalUser",
+            "password": "password123",
+            "email": "user@gmail.com",
+            "role": "user"
+        }
+    ]
+}
